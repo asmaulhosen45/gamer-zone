@@ -205,6 +205,29 @@
     top: 140px;
 }
 
+/* Genre Container Style Section  */
+.genre-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+    padding: 20px 50px 130px;
+}
+.genre-container button {
+    color: #0B0223;
+    font-size: .8rem;
+    font-weight: 600;
+    padding-bottom: 15px;
+    border-radius: 48px;
+    border: 2px solid rgb(243, 5, 5);
+}
+.genre-container img {
+    width: 20%;
+    position: relative;
+    right: 7px;
+    top: 7px;
+
+}
 
 
 
@@ -365,5 +388,8 @@ footer {
      }
      .copyright {
         padding: 0 98px 130px;
+     }
+     .genre-container {
+        padding: 20px 20px 130px;
      }
 }
