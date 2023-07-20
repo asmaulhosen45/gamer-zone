@@ -116,6 +116,9 @@
     -webkit-text-fill-color: transparent;
     margin-bottom: 20px;
 }
+.gamer-title{
+    width: 650px;
+}
 .gamer-container p {
     margin-top: 20px;
 }
@@ -128,8 +131,50 @@
     color: #534C64;
     font-size: 1rem;
     font-weight: 400;
-    max-width: 650px;
     margin: 25px 0;
+}
+
+
+/* Online Games Style section  */
+.online-title {
+    margin-top: 100px;
+}
+.online-title h1 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.gradient {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.online-title p {
+    color: #534C64;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin: 24px 100px;
+    gap: 24px;
+}
+.card-container img {
+    height: 200px;
+    /* width: 100%; */
+}
+.card-container p {
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.card {
+    margin: 0;
 }
 
 
@@ -161,6 +206,9 @@
  .gamer-container {
     padding: 40px 35px;
  }
+ .gamer-title {
+    width: 730px;
+ }
 }
 
 /*Small devices (phones, 425px and down) */
@@ -178,4 +226,16 @@
     .gamer-container {
         flex-direction: column;
     }
+    .gamer-title {
+        width: 330px;
+     }
+     .card-container {
+        flex-direction: column;
+        margin: 40px 60px;
+        text-align: center;
+     }
+     .card-container img{
+        width: 300px;
+     }
+
 }
